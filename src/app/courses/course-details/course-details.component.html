@@ -1,0 +1,36 @@
+<div class="details">
+    <div class="col-xs-12 col-md-12">
+        <div class="row">
+            <div class="col-xs-7 col-md-5">
+                <img [src]="course.imagePath" alt="{{ course.name }}" class="img-responsive" style="max-height: 300px;"></div>
+            <div class="col-xs-5 col-md-5 info">
+                <h1> {{ course.name}}</h1>
+                <div class="teacher">
+                    <h3> {{ course.teacherName }} </h3>
+                    <p> {{ course.teacherEmail }} </p>
+                </div>
+                <div class="star-rating">
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </div>
+                <div class="badges"><span class="badge"> {{ course.language }} </span>
+                    <span class="badge"> {{ course.category }} </span></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-12">
+            <div class="description">
+                <h2>Description</h2>
+                <hr class="line">
+                <p> {{ course.description }} </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="actions"><button (click)="onEditCourse()">Edit</button>
+                <button (click)="onDeleteCourse()">Delete</button></div>
+        </div>
+    </div>
+
+</div>

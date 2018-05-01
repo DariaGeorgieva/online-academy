@@ -1,0 +1,24 @@
+    li a,
+    a {
+        color: #4b4b4b;
+    }
+    
+    li a:hover,
+    a:hover,
+    button:hover {
+        color: #ff8b58;
+        background-color: #fff;
+    }
+    
+    .navbar {
+        min-height: 35px;
+        margin-bottom: 8px;
+    }
+    
+    .active {
+        background-color: #ff9667;
+    }
+    
+    .form-control:focus {
+        border-color: #ff9667;
+    }

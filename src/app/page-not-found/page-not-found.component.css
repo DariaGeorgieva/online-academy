@@ -1,0 +1,22 @@
+section {
+    height: 61rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 1% 2%;
+    background-color: #ff8b58;
+    position: absolute;
+    border-radius: 15px;
+    left: 46%;
+}
+
+img {
+    position: absolute;
+    left: 20%;
+    z-index: -9999;
+}

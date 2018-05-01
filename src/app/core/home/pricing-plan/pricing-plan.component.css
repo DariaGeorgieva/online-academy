@@ -1,0 +1,136 @@
+.title {
+    padding-top: 1%;
+    text-align: center;
+}
+
+.line {
+    width: 60px;
+    height: 5px;
+    background-color: #ff8b58;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.horizontal-line {
+    width: 60px;
+    margin-top: 1%;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.plan {
+    vertical-align: top;
+    height: 50rem;
+}
+
+.basic {
+    background: linear-gradient(174deg, #b1ecca, #8ac440);
+    width: 23%;
+    height: 35rem;
+    border-radius: 20px;
+    position: relative;
+    left: 20%;
+}
+
+.basic h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.economical {
+    background: linear-gradient(174deg, #ffdab3, #ea6d37);
+    width: 23%;
+    height: 35rem;
+    border-radius: 20px;
+    position: relative;
+    bottom: 34rem;
+    left: 40%;
+    z-index: 1000;
+}
+
+.economical h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.pro {
+    background: linear-gradient(240deg, #016098, #8cc0ae);
+    width: 23%;
+    height: 35rem;
+    border-radius: 20px;
+    position: relative;
+    bottom: 67rem;
+    left: 60%;
+}
+
+.pro h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.continue-button input {
+    background: linear-gradient(-90deg, #3333cc, #c61aff);
+    color: white;
+    width: 12%;
+    height: 7%;
+    border-radius: 21px;
+    border: 0px;
+    margin-top: -7%;
+    margin-left: 44%;
+}
+
+.basic h6 {
+    font-size: 72px;
+    color: white;
+    opacity: 0.3;
+    padding-top: 15%;
+    text-align: center;
+}
+
+.economical h6 {
+    font-size: 72px;
+    color: white;
+    opacity: 0.3;
+    padding-top: 15%;
+    text-align: center;
+}
+
+.economical p {
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+    position: relative;
+    left: 29%;
+    top: -11%;
+}
+
+.pro h6 {
+    font-size: 72px;
+    color: white;
+    opacity: 0.3;
+    padding-top: 15%;
+    text-align: center;
+}
+
+.pro p {
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+    position: relative;
+    left: 29%;
+    top: -11%;
+}
+
+.trial {
+    margin-left: 20%;
+    margin-top: 16%;
+    border-radius: 10px;
+}

@@ -1,0 +1,26 @@
+.course {
+    height: 575px;
+}
+
+.btn-new {
+    width: 40px;
+    height: 40px;
+    background-color: #ff9667;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    left: 4%;
+    font-weight: 600;
+}
+
+.btn-n {
+    position: absolute;
+    top: 3.5%;
+    left: 8%;
+}
+
+.search-bar {
+    position: absolute;
+    top: 38.5%;
+    left: 18%;
+}
